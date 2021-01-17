@@ -1,0 +1,32 @@
+.Calender-Wrapper {
+    width: 250px;
+    height: 300px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.Calender-Title {
+    font-size: 20px;
+    
+}
+
+.Calender-Table{
+    width: 100%;
+}
+
+.Calender-DaysName, .Calender-Days{
+    height: 32px;
+    text-align: center;
+}
+.Calender-DaysName{
+    
+}
+.Calender-Days{
+
+}
