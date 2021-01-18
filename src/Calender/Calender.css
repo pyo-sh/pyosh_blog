@@ -11,7 +11,11 @@
     border-radius: 10px;
 }
 
-.Calender-Title {
+.Calender-Header {
+    display: flex;
+    justify-content: space-between;
+}
+.Calender-Header-Title {
     font-size: 20px;
     
 }
@@ -29,4 +33,12 @@
 }
 .Calender-Days{
 
+}
+
+.Calender-Days-NotThisMonth{
+    color: gray;
+}
+
+.Calender-Days-Selected{
+    border: 1px solid blue;
 }
