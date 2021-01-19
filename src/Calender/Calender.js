@@ -35,6 +35,7 @@ const initElements = () => {
     tableElement.classList.add("Calender-Table");
 
     // Init Tables
+    tableElement.appendChild(document.createElement('hr'));
     for (let y = 0; y < 7; y++){
         rowElements[y] = document.createElement('tr');
         columnElements[y] = new Array();
@@ -53,6 +54,9 @@ const initElements = () => {
             rowElements[y].appendChild(columnElements[y][x]);
         }
         tableElement.appendChild(rowElements[y]);
+        if (y === 0){
+            tableElement.appendChild(document.createElement('hr'));
+        }
     }
 }
 initElements();

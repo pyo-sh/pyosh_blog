@@ -1,5 +1,5 @@
 .Calender-Wrapper {
-    width: 250px;
+    width: 300px;
     height: 300px;
 
     display: flex;
@@ -7,32 +7,64 @@
     justify-content: center;
     align-items: center;
 
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
 .Calender-Header {
+    width: 300px;
+    margin: 10px 0;
     display: flex;
     justify-content: space-between;
 }
 .Calender-Header-Title {
     font-size: 20px;
-    
+}
+.Calender-Header-Button{
+    width: 36px;
+    margin: 0 10px;
+
+    background: none;
+    border: none;
+    border-radius: 7px;
+
+    -webkit-transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s;
+}
+.Calender-Header-Button:hover{
+    outline: none;
+    box-shadow: 0 0 3px 0 rgba(163, 203, 56, 1);
+}
+.Calender-Header-Button:focus{
+    outline: none;
+    box-shadow: 0 0 5px 0 rgba(163, 203, 56, 1);
 }
 
 .Calender-Table{
     width: 100%;
 }
+.Calender-Table hr{
+    margin: 0;
+    border:none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
 
 .Calender-DaysName, .Calender-Days{
-    height: 32px;
+    display: inline-block;
+    width: 36px;
+    margin: 2px;
+    height: 28px;
+    line-height: 28px;
     text-align: center;
 }
 .Calender-DaysName{
-    
+    height: 20px;
+    line-height: 20px;
 }
 .Calender-Days{
-
+    height: 28px;
+    line-height: 28px;
 }
 
 .Calender-Days-NotThisMonth{
@@ -40,5 +72,9 @@
 }
 
 .Calender-Days-Selected{
-    border: 1px solid blue;
+    /* padding: 0px; */
+    /* border: 1px solid blue; */
+    box-shadow: 0 4px 2px -2px rgba(163, 203, 56, 1);
+    -webkit-transition: box-shadow 0.15s;
+    transition: box-shadow 0.15s;
 }
