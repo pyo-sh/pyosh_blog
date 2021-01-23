@@ -7,9 +7,15 @@
 
 ### 구현 예정
 
+* css 한 파일에 몰아두기
+
 * 게시판 기능 구현
 
 ### 구현 중
+
+* Component
+    - Props 변경 시 reRendering 관련
+    - ComponentWillMount 에서 State 접근 관련
 
 * 블로그 메인 만들어 보기
     - Header
@@ -19,15 +25,20 @@
 
 ### 구현 완료
 
-(HTML X, Javascript로 추가)
+* Component Interface 제작
+    - index.html 에서 Component 화 된 App을 불러온다
+    - 하위 컴포넌트 들도 Component class 를 extends 할 예정이다.
 
 * 시계 만들기
 
 * 달력 만들기
-    - createElement 통해서 만들고 appendChild로 html 추가
     - Table로 viewing 날짜 출력하기
     - 달력의 class 추가
     - 날짜 target 이동 기능
     - viewing date 이벤트 작성
     - targeting date 이벤트 작성
     - 달력의 css
+
+### 시도했던 것
+
+createElement 통해서 만들고 appendChild로 html 추가 (js에서 document 를 제작)
