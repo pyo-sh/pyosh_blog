@@ -9,8 +9,17 @@ class Header extends Component {
         linkElement.setAttribute('type', 'text/css');
         linkElement.setAttribute('href', stylePath);
         document.head.appendChild(linkElement);
+
+        // class 적용
+        this._target_.classList.add("Header-Wrapper");
     }
 
+    template () {
+        return `
+            <div>로고</div>
+            <div>메뉴</div>
+        `;
+    }
 };
 
 export default Header;
