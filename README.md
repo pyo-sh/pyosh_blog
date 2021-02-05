@@ -8,8 +8,6 @@
 
 ### 구현 예정
 
-* css 한 파일에 몰아두기
-
 * 게시판 기능 구현
 
 ### 구현 중
@@ -20,15 +18,16 @@
 
 * 블로그 메인 만들어 보기
     - Header
+        * 메뉴
     - Footer
     - MenuBar
     - Content
 
 ### 구현 완료
 
-* Component Interface 제작
-    - index.html 에서 Component 화 된 App을 불러온다
-    - 하위 컴포넌트 들도 Component class 를 extends 할 예정이다.
+* 블로그 메인 만들어 보기
+    - Header
+        * 로고
 
 * 시계 만들기
 
@@ -42,4 +41,8 @@
 
 ### 시도했던 것
 
-createElement 통해서 만들고 appendChild로 html 추가 (js에서 document 를 제작)
+* Component Interface 제작
+    - index.html 에서 Component 화 된 App을 불러온다
+    - 하위 컴포넌트 들도 Component class 를 extends 할 예정이다.
+
+source 파일 안에 Components / Styles / Core / Image 분리해서 작업

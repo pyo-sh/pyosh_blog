@@ -1,8 +1,8 @@
 import Component from "./src/Core/Component.js";
-import Clock from "./src/Clock/Clock.js";
-import Calender from "./src/Calender/Calender.js";
-import BlogMain from './src/Main/BlogMain.js';
-import Header from './src/Main/Header.js';
+import Clock from "./src/Components/Clock/Clock.js";
+import Calender from "./src/Components/Calender/Calender.js";
+import BlogMain from './src/Components/Main/BlogMain.js';
+import Header from './src/Components/Main/Header.js';
 
 class App extends Component{
     template () {

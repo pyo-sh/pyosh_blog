@@ -1,0 +1,44 @@
+.Header-Wrapper {
+    width: 100vw;
+    height: 80px;
+    padding: 0 3.5vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.Header-Logo{
+    height: 40px;
+
+    display: flex;
+    align-items: flex-end;
+}
+.Header-Logo-Title{
+    margin-right: 10px;
+
+    user-select: none;
+
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Sans-Serif;
+}
+
+.Header-Logo-Icons{
+    width: 60px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.Header-Logo-Link{
+    width: 25px;
+    height: 25px;
+}
+.Header-Logo-Link:link, .Header-Logo-Link:visited, .Header-Logo-Link:active, .Header-Logo-Link:hover{
+    text-decoration: none;
+    color: black;
+}
+.Header-Logo-Icon-Velog, .Header-Logo-Icon-Github {
+    vertical-align: middle!important;
+}

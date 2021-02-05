@@ -1,10 +1,10 @@
-import Component from "../Core/Component.js";
+import Component from "../../Core/Component.js";
 import { tableHeaderString, renderTable } from "./CalenderTable.js";
 
 class Calender extends Component{
     ComponentWillMount () {
         // Style 추가
-        const stylePath = './src/Calender/Calender.css'
+        const stylePath = './src/Styles/Calender/Calender.css'
         const linkElement = document.createElement('link');
         linkElement.setAttribute('rel', 'stylesheet');
         linkElement.setAttribute('type', 'text/css');

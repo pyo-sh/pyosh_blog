@@ -1,4 +1,4 @@
-import Component from "../Core/Component.js";
+import Component from "../../Core/Component.js";
 
 class Clock extends Component{
     setTime () {
@@ -20,7 +20,7 @@ class Clock extends Component{
 
     ComponentWillMount () {
         // Style 적용
-        const stylePath = './src/Clock/Clock.css'
+        const stylePath = './src/Styles/Clock/Clock.css'
         const linkElement = document.createElement('link');
         linkElement.setAttribute('rel', 'stylesheet');
         linkElement.setAttribute('type', 'text/css');
