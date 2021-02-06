@@ -1,0 +1,21 @@
+.BoardItem-Wrapper{
+    width: 100%;
+    height: 45px;
+    display:flex;
+    align-items: center;
+}
+
+.BoardItem-Id{
+    margin: 5px;
+}
+.BoardItem-Title{
+    margin: 5px;
+    width: 300px;
+}
+.BoardItem-Author{
+    margin: 5px;
+
+}
+.BoardItem-Time{
+    margin: 5px;
+}

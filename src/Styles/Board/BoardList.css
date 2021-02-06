@@ -1,0 +1,15 @@
+.BoardList-Wrapper{
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+}

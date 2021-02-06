@@ -30,7 +30,7 @@ class Clock extends Component{
         this._target_.classList.add("Clock-Wrapper");
         // state 지정
         this._state_ = { hour: '00', minutes: '00', second: '00' };
-        // 시간 지정 (WillMount 에서 State를 건들면 안되는데... 이를 어떡하지?)
+        // TODO : 시간 지정 (WillMount 에서 State를 건들면 안되는데... 이를 어떡하지?)
         this.setTime()
         setInterval(() => this.setTime(), 1000);
     }

@@ -9,8 +9,14 @@
 ### 구현 예정
 
 * 게시판 기능 구현
+    - 게시판 세부 구현
 
 ### 구현 중
+
+* 게시판 기능 구현
+    - BoardList 로 리스트를 API로 부터 가져오기 위한 초석
+    - BoardItem 을 불러오는 BoardList
+    - BoardItem 에서 css를 추가하니 자식들이 많을 땐 여러개를 추가한다.. (수정 필요)
 
 * Component
     - Props 변경 시 reRendering 관련

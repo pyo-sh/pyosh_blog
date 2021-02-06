@@ -9,6 +9,7 @@ export default class Component{
     // 생성자
     constructor (_target_, _props_){
         this._target_ = _target_;
+        this._props_ = _props_;
         this.ComponentWillMount();
         this.render();
     }

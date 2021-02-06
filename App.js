@@ -3,11 +3,13 @@ import Clock from "./src/Components/Clock/Clock.js";
 import Calender from "./src/Components/Calender/Calender.js";
 import BlogMain from './src/Components/Main/BlogMain.js';
 import Header from './src/Components/Main/Header.js';
+import BoardMain from './src/Components/Board/BoardMain.js';
 
 class App extends Component{
     template () {
         return `
             <div componentName="Header"></div>
+            <div componentName="BoardMain"></div>
             <div componentName="Clock"></div>
             <div componentName="Calender"></div>
             <div componentName="BlogMain"></div>
@@ -22,8 +24,10 @@ class App extends Component{
         new Calender(_CalenderElement_);
 
         const _HeaderElement_ = document.querySelector('[componentName="Header"]');
+        const _BoardMainElement_ = document.querySelector('[componentName="BoardMain"]');
         const _BlogMainElement_ = document.querySelector('[componentName="BlogMain"]');
 
+        new BoardMain(_BoardMainElement_);
         new Header(_HeaderElement_);
         new BlogMain(_BlogMainElement_);
     }
