@@ -1,0 +1,45 @@
+.BoardContent-Wrapper{
+    width: 800px;
+    margin: 10px;
+    padding: 10px;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.BoardContent-Title{
+    margin: 15px 0;
+    padding: 2px 5px;
+
+    border-bottom: 1px solid gray;
+}
+.BoardContent-Details{
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    border-bottom: 1px solid gray;
+}
+.BoardContent-Detail{
+    width: 50%;
+    padding: 2px 5px;
+    margin: 5px 0;
+
+}
+.BoardContent-Content{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.BoardContent-Buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+.BoardContent-Button{
+    margin: 3px 5px;
+}

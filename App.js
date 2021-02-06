@@ -24,12 +24,14 @@ class App extends Component{
         new Calender(_CalenderElement_);
 
         const _HeaderElement_ = document.querySelector('[componentName="Header"]');
-        const _BoardMainElement_ = document.querySelector('[componentName="BoardMain"]');
         const _BlogMainElement_ = document.querySelector('[componentName="BlogMain"]');
 
-        new BoardMain(_BoardMainElement_);
         new Header(_HeaderElement_);
         new BlogMain(_BlogMainElement_);
+
+        const _BoardMainElement_ = document.querySelector('[componentName="BoardMain"]');
+
+        new BoardMain(_BoardMainElement_);
     }
 }
 
